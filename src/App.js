@@ -12,7 +12,7 @@ import { Component }  from 'react';
 class App extends Component {
 
   state = {
-    cityName: 'Milano',
+    cityName: 'Milan',
   }
 
   changeCityName = (newCity) => {

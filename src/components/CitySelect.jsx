@@ -13,11 +13,11 @@ const CitySelect = (props) => {
       className=''
       value={props.cityName}
       onChange={(e) => props.changeCityName(e.target.value)}>
-      <option>Milano</option>
+      <option>Milan</option>
       <option>Palermo</option>
       <option>Parma</option>
       <option>Altamura</option>
-      <option>Roma</option>
+      <option>Rome</option>
     </Form.Select>
     <Col></Col>
     </Row>
