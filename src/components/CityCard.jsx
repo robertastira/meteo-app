@@ -2,7 +2,7 @@ import { Component } from 'react'
 import Card from 'react-bootstrap/Card'
 
 
-class MeteoCard extends Component {
+class CityCard extends Component {
 
 
   state = {
@@ -51,4 +51,4 @@ class MeteoCard extends Component {
   }
 }
 
-export default MeteoCard
+export default CityCard

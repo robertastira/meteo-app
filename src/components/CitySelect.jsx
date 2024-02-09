@@ -2,7 +2,6 @@ import { Container, Row, Col } from 'react-bootstrap'
 import Form from 'react-bootstrap/Form'
 
 
-
 const CitySelect = (props) => {
 
   return (
