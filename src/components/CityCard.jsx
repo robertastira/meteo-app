@@ -48,10 +48,10 @@ class CityCard extends Component {
             <Card.Body>
               <Card.Title><h1>{this.state.meteoObject.name} - {this.state.meteoObject.sys && this.state.meteoObject.sys.country}</h1></Card.Title>
               <Card.Text>
-                <div>Temperatura: {this.state.meteoObject.main && this.state.meteoObject.main.temp}</div>  
-                <div>Temperatura Massima: {this.state.meteoObject.main && this.state.meteoObject.main.temp_max} </div> 
-                <div>Temperatura Minima: {this.state.meteoObject.main && this.state.meteoObject.main.temp_min} </div>
-                <div>Umidità: {this.state.meteoObject.main && this.state.meteoObject.main.humidity} - Pressione: {this.state.meteoObject.main && this.state.meteoObject.main.pressure} </div>
+                <p>Temperatura: {this.state.meteoObject.main && this.state.meteoObject.main.temp}</p>  
+                <p>Temperatura Massima: {this.state.meteoObject.main && this.state.meteoObject.main.temp_max} </p> 
+                <p>Temperatura Minima: {this.state.meteoObject.main && this.state.meteoObject.main.temp_min} </p>
+                <p>Umidità: {this.state.meteoObject.main && this.state.meteoObject.main.humidity} - Pressione: {this.state.meteoObject.main && this.state.meteoObject.main.pressure} </p>
               </Card.Text>
             </Card.Body>
           </Card>
