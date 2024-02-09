@@ -46,8 +46,9 @@ class CityCard extends Component {
           <Card>
             <Card.Img variant="top" src="pngtree-meteorologyweather-and-climateicons-infographic-nature-illustration-vector-png-image_25055290.jpg" />
             <Card.Body>
-              <Card.Title><h1>{this.state.meteoObject.name} - {this.state.meteoObject.sys && this.state.meteoObject.sys.country}</h1></Card.Title>
+              <Card.Title><h1 className='fw-bold'>{this.state.meteoObject.name} - {this.state.meteoObject.sys && this.state.meteoObject.sys.country}</h1></Card.Title>
               <Card.Text>
+                <h2 className='fw-bold'> {this.state.meteoObject.weather && this.state.meteoObject.weather[0].main}</h2>
                 <p>Temperatura: {this.state.meteoObject.main && this.state.meteoObject.main.temp}</p>  
                 <p>Temperatura Massima: {this.state.meteoObject.main && this.state.meteoObject.main.temp_max} </p> 
                 <p>Temperatura Minima: {this.state.meteoObject.main && this.state.meteoObject.main.temp_min} </p>

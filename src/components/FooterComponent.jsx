@@ -69,8 +69,7 @@ function FooterSection() {
         <Row>
         <Col></Col>
         <Col xs={6}>
-        &copy;2024 EpiMeteo, Inc.  "EpiMeteo" and sun design are
-            registered trademarks of EpiMeteo, Inc.  All Rights Reserved.
+        &copy;2024 EpiMeteo, Roberta Stira Inc.
         </Col>
    
         <Col></Col>

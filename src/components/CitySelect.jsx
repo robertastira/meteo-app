@@ -18,6 +18,9 @@ const CitySelect = (props) => {
       <option>Parma</option>
       <option>Altamura</option>
       <option>Rome</option>
+      <option>Napoli</option>
+      <option>Bologna</option>
+      <option>Torino</option>
     </Form.Select>
     <Col></Col>
     </Row>

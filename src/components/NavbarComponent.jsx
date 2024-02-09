@@ -35,6 +35,13 @@ function MyNavbar() {
               <NavDropdown.Item href="#action/3.4">
                 Rome
               </NavDropdown.Item>
+              <NavDropdown.Item href="#action/3.4">
+                Napoli
+              </NavDropdown.Item><NavDropdown.Item href="#action/3.4">
+                Bologna
+              </NavDropdown.Item><NavDropdown.Item href="#action/3.4">
+                Torino
+              </NavDropdown.Item>
             </NavDropdown>
           </Nav>
         </Navbar.Collapse>
