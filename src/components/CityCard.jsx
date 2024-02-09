@@ -1,6 +1,5 @@
 import { Component } from 'react'
 import Card from 'react-bootstrap/Card'
-import Spinner from 'react-bootstrap/Spinner'
 
 
 class MeteoCard extends Component {
@@ -37,8 +36,6 @@ class MeteoCard extends Component {
 
   render() {
     return (
-      <>
-        {this.state.meteoObject ? (
           <Card>
             <Card.Img variant="top" src="pngtree-meteorologyweather-and-climateicons-infographic-nature-illustration-vector-png-image_25055290.jpg" />
             <Card.Body>
@@ -50,10 +47,6 @@ class MeteoCard extends Component {
               </Card.Text>
             </Card.Body>
           </Card>
-        ) : (
-          <Spinner animation="border" variant="warning" />
-        )}
-      </>
     )
   }
 }

@@ -1,11 +1,12 @@
 import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
+import { Container, Row, Col } from 'react-bootstrap';
+import { Component }  from 'react';
 import NavbarComponent from './components/NavbarComponent';
 import FooterComponent from './components/FooterComponent';
 import CitySelect from './components/CitySelect';
 import CityCard from './components/CityCard';
-import { Container, Row, Col } from 'react-bootstrap';
-import { Component }  from 'react';
+
 
 
 

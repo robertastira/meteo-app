@@ -8,7 +8,7 @@ const CitySelect = (props) => {
   return (
 
     <Form.Select
-      aria-label="city chooser select"
+      aria-label="cityname"
       className=''
       value={props.cityName}
       onChange={(e) => props.changeCityName(e.target.value)}
